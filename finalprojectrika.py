@@ -32,7 +32,7 @@ def kirimEmail():
     smtp.login(emailPengirim, passwordEmail)
     smtp.sendmail(emailPengirim,kontak,msg)
     smtp.quit()
-    print ('Email berhasil dikirim :)')
+    print ("Email berhasil dikirim")
 
 
 while True :
